@@ -1,0 +1,5 @@
+at\dissys\shared\messages\PercentageUpdateMessage.class
+at\dissys\shared\messages\EnergyMessage$Type.class
+at\dissys\shared\messages\HourlyUsageUpdateMessage.class
+at\dissys\shared\messages\EnergyMessage.class
+at\dissys\shared\messages\EnergyMessage$Association.class
