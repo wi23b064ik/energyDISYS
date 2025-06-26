@@ -1,0 +1,3 @@
+-- Initial schema creation for energyUsage service
+-- Note: This service reads from springrest_hourly_usage table
+-- No additional tables needed as it only aggregates existing data
