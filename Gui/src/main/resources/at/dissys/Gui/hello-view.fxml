@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<VBox alignment="CENTER" spacing="15.0"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="at.dissys.Gui.GuiController">
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
+
+    <Label fx:id="communityPoolLabel" text="Community Pool: --"/>
+    <Label fx:id="gridPortionLabel" text="Grid Portion: --"/>
+    <Button fx:id="refreshButton" text="Refresh" onAction="#handleRefresh"/>
+
+    <Label text="Start:"/>
+    <DatePicker fx:id="startDatePicker"/>
+    <Label text="End:"/>
+    <DatePicker fx:id="endDatePicker"/>
+    <Button fx:id="showDataButton" text="Show Data" onAction="#handleShowData"/>
+
+    <Label fx:id="communityProduced" text="Community produced: --"/>
+    <Label fx:id="communityUsed" text="Community used: --"/>
+    <Label fx:id="gridUsed" text="Grid used: --"/>
+</VBox>
